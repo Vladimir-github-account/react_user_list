@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "lastName": "Robbie",
+    "imageSrc": "https://i.pinimg.com/originals/dd/59/4e/dd594e241abf617abed2b7d586c19ef9.jpg"
+  },
+  {
+    "id": 2,
+    "firstName": "Jack",
+    "lastName": "",
+    "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Woman_redhead_natural_portrait.jpg"
+  },
+  {
+    "id": 3
+  },
+  {
+    "id": 4,
+    "firstName": "Jack",
+    "lastName": "Blablablabla"
+  }
+]
