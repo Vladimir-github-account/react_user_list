@@ -1,0 +1,7 @@
+.userList {
+    max-width: 500px;
+}
+
+.userList > * + * {
+    margin-top: 25px;
+}

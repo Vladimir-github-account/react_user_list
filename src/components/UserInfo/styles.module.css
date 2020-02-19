@@ -1,0 +1,14 @@
+.userInfo {
+    padding: 40px;
+}
+
+.firstName {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.lastName {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
