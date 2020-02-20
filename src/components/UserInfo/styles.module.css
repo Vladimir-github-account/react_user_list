@@ -1,14 +1,28 @@
 .userInfo {
-    padding: 40px;
+    padding: 40px 10px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
 }
 
-.firstName {
+.name {
     font-weight: bold;
     font-size: 26px;
 }
 
-.lastName {
+.login {
     margin-top: 10px;
     font-weight: 600;
     font-size: 18px;
+}
+
+.email{
+    margin-top: auto;
+    margin-left: auto;
+    padding: 2px 8px;
+    background-color: rgba(30,30,30, 0.2);
+    border-radius: 10px;
+    font-size: 14px;
 }

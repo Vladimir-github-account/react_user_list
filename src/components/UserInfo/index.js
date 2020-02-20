@@ -6,13 +6,16 @@ class UserInfo extends Component {
     super( props );
     this.firstName = props.firstName || 'User';
     this.lastName = props.lastName || '';
+    this.login = props.login || '';
+    this.email = props.email || '';
   }
 
   render() {
     return (
         <div className={styles.userInfo}>
-          <h1 className={styles.firstName}>{this.firstName}</h1>
-          <h2 className={styles.lastName}>{this.lastName}</h2>
+          <h1 className={styles.name}>{`${this.firstName} ${this.lastName}`}</h1>
+          <h2 className={styles.login}>Public name {this.login}</h2>
+          <h2 className={styles.email}>{this.email}</h2>
         </div>
     );
   }
